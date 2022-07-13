@@ -20,4 +20,11 @@ spring:
         jdbc:
           lob:
             non-contextual-creation: true
+
+twilio:
+  sid: ACdf7c0e3764f4245e3a93f390a1d7a0a9
+  key: 348562f16f12da75d1b41c5f4f349166
+  phone:
+    from: +12056569398
+    to: +5551981658626
     
