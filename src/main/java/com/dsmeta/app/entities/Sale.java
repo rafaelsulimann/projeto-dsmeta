@@ -41,7 +41,7 @@ public class Sale implements Serializable{
     private BigDecimal amount;
 
     @Column(nullable = false)
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss'Z'")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private LocalDate date;
 
     public Sale(String sellerName, Integer visited, Integer deals, BigDecimal amount, LocalDate date) {

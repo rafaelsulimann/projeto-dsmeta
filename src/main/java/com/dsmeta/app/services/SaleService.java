@@ -7,6 +7,6 @@ import com.dsmeta.app.entities.Sale;
 
 public interface SaleService {
 
-    Page<Sale> findAll(Pageable pageable);
+    Page<Sale> findAll(String minDate, String maxDate,Pageable pageable);
     
 }
